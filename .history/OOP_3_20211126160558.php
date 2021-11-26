@@ -27,7 +27,7 @@ class Student extends Person
     }
 }
 
-$student = new Student;
+$student = new Student();
 
 echo "</br>" . $student->name;
 echo "</br>" . $student->getPhone();
