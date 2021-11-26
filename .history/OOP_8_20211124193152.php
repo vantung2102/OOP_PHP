@@ -1,0 +1,21 @@
+<?php
+
+    class Student{
+        private $body = "AA";
+
+        public function __construct($body){
+            echo "</br> this is construct";
+            $this->body=$body;
+        }
+
+        public function getBody(){
+            echo "</br> this is body";
+        }
+
+        public function __destruct(){
+            echo "</br> this is destruct";
+        }
+    }
+
+    $new = new Student();
+    $new->getBody();
